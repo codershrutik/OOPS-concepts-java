@@ -14,6 +14,10 @@ public class Bike extends Vehicle{
         this.handle = handle;
     }
 
+    public String run(){
+        return "Running bike";
+    }
+    
     public String toString(){
         return "Bike {" +
             "handle = " + handle + "\'"+
