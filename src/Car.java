@@ -6,11 +6,28 @@ public class Car{
     public float test;
     public boolean test2;
 
-    public void setDoors(String doors){
-        doors = doors;
+    public String getDoors(){
+        return doors;
     }
 
-    public void getDoors(String doors){
-        doors = doors;
+    public void setDoors(String doors){
+        this.doors = doors;
     }
+
+    public String getEngine(){
+        return engine;
+    }
+
+    public void setEngine(){
+        this.engine = engine;
+    }
+
+    public String getDriver(){
+        return driver;
+    }
+
+    public void setDriver(String driver){
+        this.driver = driver;
+    }
+    
 }
