@@ -1,9 +1,7 @@
 public class main {
     public static void main(String[] args) {
-        Bike bike = new Bike();
-        bike.handle = "Short";
-        bike.engine = "Petrol";
-        System.out.println(bike.handle);
-        System.out.println(bike.engine);
+        Bike bike = new Bike("Petrol",2,2,15,"LED","Short");
+
+        System.out.println(bike);
     }
 }

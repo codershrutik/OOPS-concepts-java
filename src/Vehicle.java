@@ -42,4 +42,15 @@ public class Vehicle{
     public String getLights(){
         return lights;
     }
+
+    public String toString(){
+        return "Vehicle{ "+
+        "engine = " + engine + "\'"+
+        ", wheels = " + wheels +
+        ", seats = " + seats +
+        ", feulTank = " + fuelTank +
+        ", lights = " + lights + "\'"+
+        "}";
+    }
+    
 }

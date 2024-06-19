@@ -13,4 +13,10 @@ public class Bike extends Vehicle{
         super(engine, wheels, seats, fuelTank, lights);
         this.handle = handle;
     }
+
+    public String toString(){
+        return "Bike {" +
+            "handle = " + handle + "\'"+
+            "}";
+    }
 }
